@@ -1,0 +1,115 @@
+body {
+	color: #282828;
+	background-color: #ffffff;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	transition-duration: 250ms;
+	transition-property: background;
+}
+
+#toggle-button {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 60px;
+	height: 60px;
+	background-image: url("menu.png");
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: center;
+	cursor: pointer;
+}
+
+.menu-invisible {
+	position: absolute;
+	left: -300px;
+	top: 45px;
+	transition-duration: 250ms;
+	transition-property: left;
+	transition-timing-function: ease-in;
+}
+
+.menu-visible {
+	position: absolute;
+	left: -40px;
+	top: 45px;
+	transition-duration: 300ms;
+	transition-property: left;
+	transition-timing-function: ease-in;
+}
+
+.menu-items {
+	width: 240px;
+	line-height: 60px;
+	list-style: none;
+	cursor: pointer;
+}
+
+#white {
+	top: 60px;
+	padding-left: 20px;
+	background-color: #ffffff;
+	transition-duration: 100ms;
+	transition-property: color;
+}
+
+#white:hover {
+	color: #505050;
+	transition-duration: 100ms;
+	transition-property: color;
+}
+
+#blue {
+	top: 120px;
+	padding-left: 20px;
+	background-color: #4285f4;
+	transition-duration: 100ms;
+	transition-property: color;
+}
+
+#blue:hover {
+	color: #505050;
+	transition-duration: 100ms;
+	transition-property: color;
+}
+
+#yellow {
+	top: 180px;
+	padding-left: 20px;
+	background-color: #fbbc05;
+	transition-duration: 100ms;
+	transition-property: color;
+}
+
+#yellow:hover {
+	color: #505050;
+	transition-duration: 100ms;
+	transition-property: color;
+}
+
+#green {
+	top: 240px;
+	padding-left: 20px;
+	background-color: #34a853;
+	transition-duration: 100ms;
+	transition-property: color;
+}
+
+#green:hover {
+	color: #505050;
+	transition-duration: 100ms;
+	transition-property: color;
+}
+
+#red {
+	top: 300px;
+	padding-left: 20px;
+	background-color: #ea4335;
+	transition-duration: 100ms;
+	transition-property: color;
+}
+
+#red:hover {
+	color: #505050;
+	transition-duration: 100ms;
+	transition-property: color;
+}
