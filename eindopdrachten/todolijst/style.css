@@ -1,0 +1,29 @@
+.taskdone {
+	text-decoration: line-through;
+}
+.taskdiv {
+	display: grid;
+	grid-template-columns: 50px 200px 70px;
+	list-style: none;
+}
+
+.addbutton {
+	background-color: steelblue;
+	border-radius: 5px;
+	border: none;
+	width: 70px;
+}
+
+.inputfield {
+	border-radius: 5px;
+	width: 240px;
+	margin-left: 40px;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	margin-left: 40px;
+}
