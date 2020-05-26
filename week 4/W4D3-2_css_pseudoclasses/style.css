@@ -1,0 +1,45 @@
+#styledlink:hover {
+	color: lightblue;
+	font-weight: bold;
+}
+
+#styledlink2:active {
+	color: red;
+	font-style: italic;
+}
+
+#styledlink3:visited {
+	color: yellow;
+}
+
+.inputfield:focus {
+	color: green;
+	font-size: 20px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	background-color: darkblue;
+}
+
+.menuitem {
+	color: white;
+}
+
+.menuitem:hover {
+	background-color: lightblue;
+}
+
+.currentPage:hover {
+	background-color: lightblue;
+}
+
+.currentPage {
+	color: white;
+	background-color: steelblue;
+}
+
+.inputfield2:focus {
+	border: 5px solid aquamarine;
+}
